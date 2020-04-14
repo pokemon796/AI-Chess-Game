@@ -1,0 +1,26 @@
+{
+  "name": "dr--henry-s-chess-game",
+  "productName": "Dr. Henry's Chess Game",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "This is a cross-platform AI chess game developed by Dr. Henry and packaged by Ozan Mirza.",
+  "author": "Ozan Mirza <ozan.i.mirza@gmail.com>",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-linux": "electron-packager . HenryChess --overwrite --platform=linux --arch=x64 --icon=Assets/AppIcon.png --prune=true --out=release-builds/Linux",
+    "create-debian-installer": "electron-installer-debian --src release-builds/Linux/HenryChess-linux-x64/ --arch amd64 --config debian.json"
+  },
+  "devDependencies": {
+    "electron": "^8.2.1",
+    "electron-builder": "latest",
+    "electron-installer-debian": "^3.0.0",
+    "electron-packager": "^14.2.1",
+    "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-util": "^0.14.0",
+    "fix-path": "^3.0.0"
+  }
+}
