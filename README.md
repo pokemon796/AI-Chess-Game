@@ -7,8 +7,19 @@ This is a cross-platform desktop app built with Electron and Java for the Mac, W
 https://ozanmirza1.github.io/AI-Chess-Game/
 
 ## Previews
-![HomePage](https://github.com/ozanmirza1/AI-Chess-Game/blob/master/Assets/Previews/HomePageScreenShot.png =250x)
-![GamePage](https://github.com/ozanmirza1/AI-Chess-Game/blob/master/Assets/Previews/GameScreenShot.png | =250x)
+![HomePage](https://github.com/ozanmirza1/AI-Chess-Game/blob/master/Assets/Previews/HomePageScreenShot.png)
+![GamePage](https://github.com/ozanmirza1/AI-Chess-Game/blob/master/Assets/Previews/GameScreenShot.png)
+
+img[HomePage] {
+  width: 70%;
+  border: none;
+  background: none;
+}
+img[GamePage] {
+  width: 70%;
+  border: none;
+  background: none;
+}
 
 ## Testing
 To test this, either download the source code or clone it. Then open Terminal and cd into the working directory. Next, run this commmand once:
