@@ -8,8 +8,9 @@
   "main": "./main.js",
   "scripts": {
     "start": "electron .",
-    "package-linux": "electron-packager . HenryChess --overwrite --platform=linux --arch=x64 --icon=Assets/AppIcon.png --prune=true --out=release-builds/Linux",
-    "create-debian-installer": "electron-installer-debian --src release-builds/Linux/HenryChess-linux-x64/ --arch amd64 --config debian.json"
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=Assets/AppIcon/AppIcon.icns --prune=true --out=release-builds/MacOS",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --platform=win32 --arch=ia32 --icon=Assets/AppIcon/AppIcon.ico --prune=true --out=release-builds/Windows --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Dr. Henry's Chess Game\"",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --platform=linux --arch=x64 --icon=Assets/AppIcon/AppIcon.png --prune=true --out=release-builds/Linux"
   },
   "devDependencies": {
     "electron": "^8.2.1",
