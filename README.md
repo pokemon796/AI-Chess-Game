@@ -6,6 +6,11 @@ This is a cross-platform desktop app built with Electron and Java for the Mac, W
 ## Website
 https://ozanmirza1.github.io/AI-Chess-Game/
 
+## Previews
+![Video](https://github.com/ozanmirza1/AI-Chess-Game/blob/master/Assets/Previews/Video.mp4)
+![HomePage]()
+![GamePage]()
+
 ## Testing
 To test this, either download the source code or clone it. Then open Terminal and cd into the working directory. Next, run this commmand once:
 
