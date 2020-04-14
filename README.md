@@ -14,6 +14,6 @@ then run this command to run everytime:
 > npm start
 
 ## Download
-[Mac OS]()
-[Windows]()
-[Linux]()
+[Mac OS](https://dl.dropboxusercontent.com/s/i0u3wfwi0uh6wxe/Dr.%20Henry%27s%20Chess%20Game.dmg?dl=0)
+[Windows](https://dl.dropboxusercontent.com/s/meons0h0f73c6ls/Dr.%20Henry%27s%20Chess%20Game.exe?dl=0)
+[Linux](https://dl.dropboxusercontent.com/s/0o7uqit98t9y4kb/Dr.%20Henry%27s%20Chess%20Game.deb?dl=0)
