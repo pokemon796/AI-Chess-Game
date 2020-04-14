@@ -17,11 +17,6 @@
         <div id="GameScreenShot" style="background-image: url('Assets/Previews/GameScreenShot.png'); background-size: contain; background-repeat: no-repeat; position: absolute; top: 10%; left: -1%; width: 100%; height: 75%; opacity: 0; transition: opacity 0.5s linear;"></div>
         <div id="HomePageScreenShot" style="background-image: url('Assets/Previews/HomePageScreenShot.png'); background-size: contain; background-repeat: no-repeat; position: absolute; top: 40%; left: 25%; width: 100%; height: 50%; opacity: 0; transition: opacity 0.5s linear;"></div>
         <input type="button" id="playButton" style="background-image: url('Assets/PlayIcon.png'); background-size: contain; background-repeat: no-repeat; position: absolute; top: 50%; left: 20%; width: 75px; height: 75px; transform: translateY(-50%); background-color: rgba(25, 25, 25, 0.85); border-radius: 50px; border: none;"></div>
-        <div id="videoContainer" style="display: none; position: absolute; width: 100%; height: 100%; background-color: rgba(25, 25, 25, 0.85); opacity: 0; transition: opacity 0.5s linear;">
-            <p style="padding-top: 40px; color: white; font-size: 1.25vw; font-weight: 600; font-family:' Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', serif; text-align: center; text-align: center;"><u>Click anywhere to exit</u></p>
-            <input type="button" id="exitVideoContainer" style="position: absolute; top: 0%; width: 100%; height: 100%; border: none; background-color: transparent;">
-            <iframe src="https://www.youtube.com/embed/6UAOsK-y9dI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; width: 75%; height: 75%; top: 50%; left: 50%; transform: translate(-50%, -50%);"></iframe>
-        </div>
         <div id="container" style="position: absolute; top: 0%; left: 50%; width: 0%; height: 0%; transition: width 0.25s linear, height 0.5s linear;">
             <div style="background-image: url('Assets/AppIcon/AppIcon.png'); background-size: contain; background-repeat: no-repeat; position: relative; left: 10%; width: 50%; height: 30%;"></div>
             <h1 style="position: relative; left: 0%; height: 7vw; color: white; font-weight: 600; font-size: 3.6vw; font-family: Arial, Helvetica, sans-serif;">Dr. Henry's AI Chess Game</h1>
@@ -31,6 +26,11 @@
             <a href="https://github.com/ozanmirza1/AI-Chess-Game/" target="_blank">
                 <div style="background-image: url('Assets/GitHub.png'); background-size: contain; background-repeat: no-repeat; position: absolute; top: 1.5%; left: 93.5%; width: 5%; height: 5%;"></div>
             </a>
+        </div>
+        <div id="videoContainer" style="display: none; position: absolute; width: 100%; height: 100%; background-color: rgba(25, 25, 25, 0.85); opacity: 0; transition: opacity 0.5s linear;">
+            <p style="padding-top: 40px; color: white; font-size: 1.25vw; font-weight: 600; font-family:' Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', serif; text-align: center; text-align: center;"><u>Click anywhere to exit</u></p>
+            <input type="button" id="exitVideoContainer" style="position: absolute; top: 0%; width: 100%; height: 100%; border: none; background-color: transparent;">
+            <iframe src="https://www.youtube.com/embed/6UAOsK-y9dI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; width: 75%; height: 75%; top: 50%; left: 50%; transform: translate(-50%, -50%);"></iframe>
         </div>
         <script>
             window.onload = () => {
