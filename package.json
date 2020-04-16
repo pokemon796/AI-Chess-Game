@@ -9,8 +9,8 @@
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=Assets/AppIcon/AppIcon.icns --prune=true --out=release-builds/MacOS",
-    "package-win": "electron-packager . electron-tutorial-app --overwrite --platform=win32 --arch=ia32 --icon=Assets/AppIcon/AppIcon.ico --prune=true --out=release-builds/Windows --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Dr. Henry's Chess Game\"",
-    "package-linux": "electron-packager . electron-tutorial-app --overwrite --platform=linux --arch=x64 --icon=Assets/AppIcon/AppIcon.png --prune=true --out=release-builds/Linux"
+    "package-win": "electron-packager . \"Dr. Henry's Chess Game\" --overwrite --platform=win32 --arch=ia32 --icon=Assets/AppIcon/AppIcon.ico --prune=true --out=release-builds/Windows --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Dr. Henry's Chess Game\"",
+    "package-linux": "electron-packager . \"Dr. Henry's Chess Game\" --overwrite --platform=linux --arch=x64 --icon=Assets/AppIcon/AppIcon.png --prune=true --out=release-builds/Linux"
   },
   "devDependencies": {
     "electron": "^8.2.1",

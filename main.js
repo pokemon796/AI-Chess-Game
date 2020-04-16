@@ -16,7 +16,7 @@ app.on('ready', function() {
     // Create new window.
     mainWindow = new BrowserWindow({
         width: 400,
-        height: 400,
+        height: 420,
         center: true,
         resizable: false,
         icon: url.format({
