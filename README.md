@@ -5,6 +5,7 @@ This is a cross-platform desktop app built with Electron and Java for the Mac, W
 
 ## Website & Downloads
 https://ozanmirza1.github.io/AI-Chess-Game/
+
 https://github.com/ozanmirza1/AI-Chess-Game/releases
 
 ## Previews
