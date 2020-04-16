@@ -19,3 +19,5 @@ To test this, either download the source code or clone it. Then open Terminal an
 then run this command to run everytime:
 
 > npm start
+
+Happy Hacking!
