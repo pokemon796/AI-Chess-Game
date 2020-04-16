@@ -19,6 +19,4 @@ then run this command to run everytime:
 > npm start
 
 ## Download
-[Mac OS](https://github.com/ozanmirza1/AI-Chess-Game/raw/master/release-builds/AI%20Chess%20Game%20Installer.dmg)
-[Windows](https://github.com/ozanmirza1/AI-Chess-Game/raw/master/release-builds/AI%20Chess%20Game%20Installer.exe)
-[Linux](https://github.com/ozanmirza1/AI-Chess-Game/raw/master/release-builds/AI%20Chess%20Game%20Installer.deb)
+[Release Page](https://github.com/ozanmirza1/AI-Chess-Game/releases)
